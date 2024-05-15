@@ -46,7 +46,7 @@ This project is a dice game called "Tupled Out!" implemented in Python. Players 
 3. **Run the Game:**
    - Open a terminal or command prompt.
    - Navigate to the directory containing the project files.
-   - Run the command: `python main.py`
+   - Run the command: `python TOutGame!.py`
 
 ### How to Play:
 
