@@ -1,4 +1,5 @@
 # Updated Final Project for Tupled Out!
+# Import random module, used later in code to roll 1-6 like a dice roll
 import random
 class Player:
     def __init__(self, name):
