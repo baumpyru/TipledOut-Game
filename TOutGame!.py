@@ -81,3 +81,5 @@ class DiceRound:
                         print(f"\n{player.name} won!")
                         return
         print("\nGAME OVER! No winners this round.")
+
+# Code will not run without calling the main function, should invoke the program with main
