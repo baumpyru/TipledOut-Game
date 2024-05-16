@@ -53,6 +53,7 @@ class DiceRound:
                     print(f"{p.name} gives 1 point to {player.name}!")
                     p.score -= 1
                     player.score += 1
+                    # Perhaps this is where you can edit the code and add matplotlib to plot the scores into some sort of graph you can show the player
    
     # return turn_score
     
