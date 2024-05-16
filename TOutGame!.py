@@ -32,8 +32,14 @@ class DiceRound:
         if len(fixed) == 2: 
             print("Three dice are in place:", [rolls[i] for i in fixed])
             return 0
-        
-        choice = input("Would you like to roll again? (y/n): ").lower()
+            
+        # Added error correction so if player puts in something other than y or n it tries again
+        choice = ''
+        while choice not in ['y', 'n']:
+            choice = input("Would you like to roll again? (y/n): ").lower()
+            if choice not in ['y', 'n']:
+                print("Invalid input. Please enter 'y' or 'n'.")
+                
         if choice == 'n':
             return 0
 
